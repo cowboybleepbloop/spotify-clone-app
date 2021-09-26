@@ -1,0 +1,25 @@
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.login > img {
+    max-width: 540px;
+}
+
+.login > a > button {
+    padding: 20px;
+    background-color: #1db954;
+    border-color: #1db954;
+    border-width: 0ch;
+    border-radius: 99px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
+
+.login > a > button:hover {
+    background-color: #8bf32a;
+}
